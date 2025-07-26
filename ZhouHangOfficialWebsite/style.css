@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.t1t {
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-family:'华文新魏', Tahoma, Geneva, Verdana, sans-serif;
+    color:#DCA976;
+    text-align: left;
+    margin: 20px;
+    text-indent: 65px;
+    position:absolute;
+    left: 20px;
+}
+
+header {
+    background-color: white;
+    display: block;
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    border-bottom: 1px inset antiquewhite;
+}
+
+header a {
+    color: #DCA976;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+
+header ul {
+    position: absolute;
+    right: 0;   
+    top: 0;
+    line-height: 100px;
+}
+
+.tagbar {
+    background-color: #DCA976;
+    height: 140px;
+    padding-top: 110px;
+    text-align: center;
+}
+
+.tagbar li {
+    display: inline;
+    margin-right: 6vw;
+    margin-left: 6vw;
+}
+
+.tagbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.news{
+    height: 65vh; 
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('pics/news.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 0;
+    gap:0;
+}
+
+.workcards {
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #DCA976;
+    border-radius: 5%;
+    background-color: antiquewhite;
+    width: 25%;
+}
+
+.workcards h3{
+    line-height: 40px;
+}
+
+.workcards p{
+    line-height: 30px;
+    font-family: '华文新魏';
+}
+
+.activities {
+    height: auto;
+    display: flex;
+    background-color: antiquewhite;
+    padding: 30px;
+    width: 100%;
+}
+
+footer {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
