@@ -525,6 +525,13 @@ nav ul li a:hover::after {
     transition: all 0.3s ease;
 }
 
+.partner-logo a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration-line: none;
+}
+
 .partner-logo:hover {
     background: rgba(217, 203, 158, 0.2);
     transform: scale(1.05);
